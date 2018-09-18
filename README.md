@@ -122,6 +122,27 @@ $ docker rename [container_name] [container_newname]
 $ docker tag [repository_name]:[tag] [repository_newname]:[tag]
 ```
 
+## Docker Compose
+* Docker Compose Run Container
+```bash
+$ docker-compose up
+```
+
+* Docker Compose Stop Container
+```bash
+$ docker-compose down
+```
+
+* Docker Compose Run Container in Background
+```bash
+$ docker-compose up -d
+```
+
+* Docker Compose Stop Contianer in Background
+```bash
+$ docker-compose stop
+```
+
 ## Docker Hub
 * Docker Login
 ```bash
